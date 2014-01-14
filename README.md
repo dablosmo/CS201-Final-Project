@@ -3,6 +3,8 @@ team24
 
 SimCity201 Project Repository for CS 201 students
 
+## See LICENSE
+
 ## WORK DONE
 
 #### Ellen :
@@ -86,11 +88,3 @@ SimCity201 Project Repository for CS 201 students
 	+ In the package mainCity.bank.test, you will find BankManagerTest.java, BankTellerTest.java, BankerTest.java, . Right click on the file, go to Run As -> JUnit Test.	
 	
   + All scenarios are runnable under scenario tab in GUI.
-
-## THINGS WE KNOW DON'T WORK / GENERAL NOTES ABOUT OUR V1 SUBMISSION
-  + Some of our PersonAgents who take on jobs in certain restaurants will not be able to properly go off-duty after they end their shift. We figured out a way to do this successfully, but it hasn't been implemented everywhere due to time constraints
-    + UPDATE: Most workplaces are now implementing going-off-duty functionalities properly.
-  + An FYI: the way our hard-coded PersonAgents (from the configuration file) operate, their work duties are prioritized over their hunger, so even though you may tell them to get hungry, they won't act upon that until after their shift.
-  + When adding Persons though the "Create" panel on the CityGui, if they have an occupation they will prioritize that over their hunger.
-  + We do not have waiter breaks implemented to where they can leave the restaurant and do other things.
-  + In the restaurant on the far right, if it ever gets stuck customers and 1 waiter, add a waiter and set his occupation as davidWaiter.
